@@ -1,4 +1,8 @@
-# Set AutoLayout Frame Issue
+# AutoLayout Set Frame Issue
+
+
+
+![image](../Resource/autolayout.png)
 
 최근에 프로젝트를 진행하며 AutoLayout이 적용된 View A가 있었고, 아무런 제약조건이 없는 View B가 있었다.
 
@@ -8,7 +12,10 @@
 
 ~~~~objective-c
 - (void)viewDidAppear:(BOOL)animated {
-	viewB.frame = viewA.frame;
+	viewB.frame = CGRectMake(self.ViewA.frame.origin.x,
+                             self.ViewA.frame.origin.y,
+                             self.ViewA.frame.size.width,
+                             self.ViewA.frame.size.height);
 }
 ~~~~
 
@@ -26,6 +33,9 @@
 
 ~~~~objective-c
 - (void)viewDidLayoutSubviews {
-	viewB.frame = viewA.frame;
+	viewB.frame = CGRectMake(self.ViewA.frame.origin.x,
+                             self.ViewA.frame.origin.y,
+                             self.ViewA.frame.size.width,
+                             self.ViewA.frame.size.height);
 }
 ~~~~
