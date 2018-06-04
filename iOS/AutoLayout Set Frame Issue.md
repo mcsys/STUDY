@@ -1,8 +1,8 @@
-# AutoLayout Set Frame Issue
-
-
-
 ![image](../Resource/autolayout.png)
+
+
+
+# AutoLayout Set Frame Issue
 
 최근에 프로젝트를 진행하며 AutoLayout이 적용된 View A가 있었고, 아무런 제약조건이 없는 View B가 있었다.
 
