@@ -29,5 +29,9 @@ xml 포맷에 맞게 아래 부분에 추가해주면 된다.
 </dict> 
 ~~~~
 
- 이렇게 하면 끝.
+
+
+![](../Resource/TransportPlist.png)
+
+이렇게 하면 끝.
 
