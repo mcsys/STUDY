@@ -4,9 +4,11 @@
 
 iOS 9 이상부터는 앱에서 네트워크를 사용할 때 설정을 안해주면 다음과 같은 에러가 발생한다.
 
-```objective-c
+~~~~objective-c
 Transport security has blocked a cleartext HTTP (http://) resource load since it is insecure. Temporary exceptions can be configured via your app's Info.plist file.
-```
+~~~~
+
+
 
 
 
