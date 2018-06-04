@@ -2,9 +2,9 @@
 
 최근에 프로젝트를 진행하며 AutoLayout이 적용된 View A가 있었고, 아무런 제약조건이 없는 View B가 있었다.
 
-제약조건이 없는 View B에 크기를 AutoLayout이 적용된 View A 의 Frame 사이즈를 넣어주려고 했더니
+제약조건이 없는 View B에 크기를 AutoLayout이 적용된 View A와 동일한 사이즈로 변경하려고 View A의 Frame
 
-사이즈가 변경되지 않았다.
+사이즈를 넣었더니 사이즈가 변경되지 않았다.
 
 ~~~~objective-c
 - (void)viewDidAppear:(BOOL)animated {
@@ -14,7 +14,7 @@
 
 
 
-구글링 결과 AutoLayout이 적용되는 시점은 이 메서드에서 변경이 된다고 나와있었다.
+구글링 결과 AutoLayout이 적용되는 시점은 다음 메서드에서 변경이 된다고 나와있었다.
 
 ~~~~objective-c
 - (void)viewDidLayoutSubviews;
