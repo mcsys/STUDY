@@ -26,6 +26,9 @@ AppDelegate에 다음 코드를 추가하면 StatusBar Style을 원하는 테마
 [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
 ~~~~
 
+* UIStatusBarStyleDefault 
+* UIStatusBarStyleLightContent
+
 **Swift**
 
 ~~~~swift
@@ -57,4 +60,10 @@ override func preferredStatusBarStyle() -> UIStatusBarStyle {
 ~~~~
 
 다음 메서드를 이용해서도 Style을 변경이 가능하다.
+
+
+
+![UIStatusBarStyleLightContent](../Resource/UIStatusBarStyleLightContent.png)
+
+![UIStatusBarStyleDefault](../Resource/UIStatusBarStyleDefault.png)
 
