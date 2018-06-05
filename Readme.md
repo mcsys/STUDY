@@ -11,7 +11,7 @@
 
 <br />
 
-# GitHub
+## GitHub
 
 * [Markdown 문법 정리](https://github.com/Developer-Leby/STUDY/blob/master/GitHub/Markdown%20%EB%AC%B8%EB%B2%95%20%EC%A0%95%EB%A6%AC.md)
 
@@ -19,7 +19,7 @@
 
 <br />
 
-# iOS
+## iOS
 
 * [AutoLayout Set Frame Issue](https://github.com/Developer-Leby/STUDY/blob/master/iOS/AutoLayout%20Set%20Frame%20Issue.md)
 * [iOS 9+ 네트워크 사용 설정](https://github.com/Developer-Leby/STUDY/blob/master/iOS/Transport%20security%20has%20blocked%20a%20cleartext%20HTTP%20(http:)%20resource%20load%20since%20it%20is%20insecure.%20Temporary%20exceptions%20can%20be%20configured%20via%20your%20app's%20Info.plist%20file.md)
