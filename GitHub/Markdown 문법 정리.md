@@ -1,4 +1,4 @@
-# 마크다운(Markdown) 정리
+# 마크다운(Markdown) 문법 정리
 
 깃허브(GitHub)를 사용하거나 지킬(jekyll)를 사용해봤다면 마크다운(Markdown)을 한번씩은 들어봤을 것이다.
 
