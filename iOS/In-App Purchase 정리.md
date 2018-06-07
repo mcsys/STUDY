@@ -12,6 +12,8 @@ OFF > ON으로 변경하면 이제부터 이 프로젝트에서는 인앱을 사
 
 
 
+
+
 그리고 애플 개발자 사이트에서 Certificates, Identifiers & Profiles로 이동한다.
 
 좌측 메뉴에서 Identifiers > App IDs에서 현재 인앱을 ON시킨 프로젝트의 번들 아이디 값과 동일한
