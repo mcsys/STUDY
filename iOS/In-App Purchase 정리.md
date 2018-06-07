@@ -28,10 +28,6 @@ App IDs를 가진 프로젝트의 정보를 확인한다.
 
 
 
-
-
-
-
 ### In-App Source 구현
 
 먼저 인앱을 구현하기 위해서는 StoreKit이라는 iOS SDK를 이용해야 한다.
