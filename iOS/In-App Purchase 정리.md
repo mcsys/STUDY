@@ -10,7 +10,7 @@ OFF > ON으로 변경하면 이제부터 이 프로젝트에서는 인앱을 사
 
 ![Project-Capabillities](../Resource/Project-Capabillities.png)
 
-<br />
+
 
 그리고 애플 개발자 사이트에서 Certificates, Identifiers & Profiles로 이동한다.
 
@@ -20,9 +20,7 @@ App IDs를 가진 프로젝트의 정보를 확인한다.
 
 해당 프로젝트의 In-App Purchase 항목이 Enable로 되어 있으면 기본 설정은 끝났다.
 
-![In-App Purchase Enable](../Resource/In-App Purchase Enable.png)
-
-
+![InAppPurchaseEnable](../Resource/InAppPurchaseEnable.png)
 
 
 
@@ -35,6 +33,16 @@ App IDs를 가진 프로젝트의 정보를 확인한다.
 
 
 ### In-App Source 구현
+
+먼저 인앱을 구현하기 위해서는 StoreKit이라는 iOS SDK를 이용해야 한다.
+
+Target > Build Phases으로 이동해서 StoreKit Framework 라이브러리를 링크 시킨다.
+
+~~~~objc
+#import <StoreKit/StoreKit.h>
+~~~~
+
+
 
 
 
