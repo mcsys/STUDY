@@ -1,6 +1,12 @@
 # In-App Purchase 정리
 
+<br />
+
+<br />
+
 ### In-App 기능 활성화
+
+-------
 
 최근 프로젝트에 인앱 구매 기능을 넣고 추후에 까먹을까봐 정리를 하려고한다.
 
@@ -25,6 +31,8 @@ App IDs를 가진 프로젝트의 정보를 확인한다.
 <br />
 
 ### In-App Source 구현
+
+-------
 
 먼저 인앱을 구현하기 위해서는 StoreKit이라는 iOS SDK를 이용해야 한다.
 
@@ -192,6 +200,8 @@ SKProductsRequestDelegate,SKPaymentTransactionObserver> {
 
 ### 인앱 상품 추가
 
+-------
+
 이번에는 인앱 상품을 추가한다. itunesconnect 인앱을 추가 시킬 앱으로 이동한다.
 
 나의 앱 > 앱 내 추가 기능 > 앱 내 구입 항목으로 이동한다.
@@ -237,6 +247,8 @@ SKProductsRequestDelegate,SKPaymentTransactionObserver> {
 
 ### 인앱 테스트 계정 추가 (Sandbox 테스터)
 
+-------
+
 인앱 상품에 대해서 구매할 수 있는 테스터 계정을 만들어야 한다.
 
 itunesconnect로 이동해서 사용자 및 역할 > Sandbox 테스터 + 눌러 추가를 해야한다.
@@ -265,6 +277,8 @@ itunesconnect로 이동해서 사용자 및 역할 > Sandbox 테스터 + 눌러 
 <br />
 
 ### TestFlight 인앱 테스트
+
+-------
 
 이제 앱을 테스트 TestFlight에 올려 Sandbox 테스터 계정으로 테스트를 할 수 있다.
 
@@ -295,6 +309,8 @@ No products to purchase
 <br />
 
 ### 앱 배포시 특이사항
+
+-------
 
 인앱 구매에 대해서 앱스토어 리젝이 난 적이 있다. 
 
