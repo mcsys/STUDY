@@ -54,7 +54,7 @@ SKProductsRequestDelegate,SKPaymentTransactionObserver> {
 
 ```objc
 #import <StoreKit/StoreKit.h>
-#define kTutorialPointProductID @"com.leby.Memories.InApp"
+#define kTutorialPointProductID @"com.leby.Test.InApp"
 ```
 
 > kTutorialPointProductID는 이 시점에서는 모른다. 
