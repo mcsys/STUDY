@@ -30,7 +30,7 @@ Target > Build Phases으로 이동해서 StoreKit Framework 라이브러리를 �
 
 **InAppViewController.h**
 
-~~~~objc
+```objc
 @interface InAppViewController : UIViewController<
 SKProductsRequestDelegate,SKPaymentTransactionObserver> {
     SKProductsRequest *productsRequest;
@@ -46,45 +46,45 @@ SKProductsRequestDelegate,SKPaymentTransactionObserver> {
 - (BOOL)canMakePurchases;
 - (void)purchaseMyProduct:(SKProduct*)product;
 - (IBAction)purchase:(id)sender;
-~~~~
+```
 
 <br />
 
 **InAppViewController.m**
 
-~~~~objc
+```objc
 #import <StoreKit/StoreKit.h>
 #define kTutorialPointProductID @"com.leby.Memories.InApp"
-~~~~
+```
 
 > kTutorialPointProductID는 이 시점에서는 모른다. 
 >
 > Source 구현이 끝나고 itunesconnect 에서 ProductID를 지정해주어야 한다.
 
-~~~~objc
+```objc
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [self fetchAvailableProducts];
 }
-~~~~
+```
 
-~~~~objc
+```objc
 -(void)fetchAvailableProducts {
     NSSet *productIdentifiers = [NSSet setWithObjects:kTutorialPointProductID,nil];
     productsRequest = [[SKProductsRequest alloc] initWithProductIdentifiers:productIdentifiers];
     productsRequest.delegate = self;
     [productsRequest start];
 }
-~~~~
+```
 
-~~~~objc
+```objc
 - (BOOL)canMakePurchases {
     return [SKPaymentQueue canMakePayments];
 }
-~~~~
+```
 
-~~~~objc
+```objc
 - (void)purchaseMyProduct:(SKProduct*)product {
     if ([self canMakePurchases]) {
         SKPayment *payment = [SKPayment paymentWithProduct:product];
@@ -97,9 +97,9 @@ SKProductsRequestDelegate,SKPaymentTransactionObserver> {
         restorePurchaseButton.hidden = YES;
     }
 }
-~~~~
+```
 
-~~~objc
+```objc
 #pragma mark StoreKit Delegate
 -(void)paymentQueue:(SKPaymentQueue *)queue updatedTransactions:(NSArray *)transactions {
     for (SKPaymentTransaction *transaction in transactions) {
@@ -135,9 +135,9 @@ SKProductsRequestDelegate,SKPaymentTransactionObserver> {
         [SVProgressHUD dismiss];
     });
 }
-~~~
+```
 
-~~~objc
+```objc
 -(void)productsRequest:(SKProductsRequest *)request didReceiveResponse:(SKProductsResponse *)response {
     SKProduct *validProduct = nil;
     NSUInteger count = [response.products count];
@@ -165,9 +165,9 @@ SKProductsRequestDelegate,SKPaymentTransactionObserver> {
     
     [SVProgressHUD dismiss];
 }
-~~~
+```
 
-~~~objc
+```objc
 #pragma mark - 버튼 메서드
 -(IBAction)purchase:(id)sender {
     dispatch_async(dispatch_get_main_queue(), ^{
@@ -182,7 +182,7 @@ SKProductsRequestDelegate,SKPaymentTransactionObserver> {
         [self purchaseMyProduct:[self->validProducts objectAtIndex:0]];
     }
 }
-~~~
+```
 
 <br />
 
@@ -225,7 +225,7 @@ SKProductsRequestDelegate,SKPaymentTransactionObserver> {
 
 **스크린샷** : 구매, 구매복원 등의 앱에서 어떤식으로 보여지는지 스크린샷
 
----------------
+------
 
 각 항목에 맞춰 입력하고 저장을 누르면 제품 등록은 끝이다.
 
@@ -268,9 +268,9 @@ itunesconnect로 이동해서 사용자 및 역할 > Sandbox 테스터 + 눌러 
 
 테스를 진행하다보면 소스 상에서 다음과 같이 에러를 볼 수 있다.
 
-~~~~objc
+```objc
 No products to purchase
-~~~~
+```
 
 <br />
 
