@@ -16,7 +16,7 @@
 
 Android > sdk > platform-tools로 이동하면 adb 파일이 있을 것이다.
 
-- **Windows adb 설정**
+**Windows adb 설정**
 
 ~~~~
 1. 내 컴퓨터 오른쪽 마우스 클릭 > 속성
@@ -29,7 +29,7 @@ Android > sdk > platform-tools로 이동하면 adb 파일이 있을 것이다.
 
 <br />
 
-- **MacOS adb 설정**
+**MacOS adb 설정**
 
 bash를 사용하는 경우 **~/.bashrc**
 
@@ -52,7 +52,7 @@ export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 
 <br />
 
-# 안드로이드 스마트 폰 설정
+# 안드로이드 설정
 
 adb를 이용해서 안드로이드에 apk를 설치하기 위해서는 다음과 같은 조건이 필요하다.
 
