@@ -1,5 +1,3 @@
-
-
 # iOS New File Template 만들기
 
 ![TemplateUse](../Resource/TemplateUse.png)
