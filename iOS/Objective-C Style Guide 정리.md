@@ -250,9 +250,9 @@ UIButton *setBut
 
 # init과 dealloc 메서드
 
-dealloc 메서드는 구현의 맨 위에 있는 @synthesize와 @dynamic문 바로 뒤에 있어야 합니다.
+`dealloc` 메서드는 구현의 맨 위에 있는 `@synthesize`와 `@dynamic`문 바로 뒤에 있어야 합니다.
 
-init 메서드는 클래스의 바로 아래에 위치해야 합니다.
+`init` 메서드는 클래스의 바로 아래에 위치해야 합니다.
 
 ~~~~objc
 - (instancetype)init {
@@ -270,7 +270,7 @@ init 메서드는 클래스의 바로 아래에 위치해야 합니다.
 
 # 리터럴 (Literals)
 
-NSString, NSDictionary, NSArray, NSNumber 등 인스턴스 값이 변하지 않을 경우 리터럴을 이용하여 값을 줄 수 있습니다.
+`NSString`, `NSDictionary`, `NSArray`, `NSNumber` 등 인스턴스 값이 변하지 않을 경우 리터럴을 이용하여 값을 줄 수 있습니다.
 
 **올바른 예 :** 
 
@@ -296,7 +296,7 @@ NSNumber *buildingZIPCode = [NSNumber numberWithInteger:10018];
 
 # CGRect 기능
 
-CGRect에 width, height, x, y의 값을 액세스하고 싶은 경우 바로 변수 값에 접근하는 방법보다 지원해주는 함수를 사용하여
+`CGRect`에 width, height, x, y의 값을 액세스하고 싶은 경우 바로 변수 값에 접근하는 방법보다 지원해주는 함수를 사용하여
 
 값을 액세스 하는 것을 선호합니다.
 
