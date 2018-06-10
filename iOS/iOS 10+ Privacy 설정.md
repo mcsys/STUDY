@@ -46,6 +46,6 @@ iOS 10에서 아래와 같은 기능을 사용하기 위해서는 사용자의 �
 
 <br/>
 
-실제로 해당 기능을 사용할 때 권한을 승인 받는 화면이 보여진다.
+이제 소스 코드에서 해당 기능을 사용할 때 권한을 승인 받는 화면이 사용자에게 보여진다.
 
 ![PrivacyScreenshot](../Resource/PrivacyScreenshot.jpeg)
