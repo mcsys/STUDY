@@ -19,7 +19,7 @@ iOS 6.0+ 부터 제공하는 `SKStoreProductViewController`를 사용하면 앱�
 
 <br />
 
-# SKStoreProductViewController 설정
+# StoreKit.Framework 추가
 
 먼저 `SKStoreProductViewController`를 사용하기 위해서는 `StoreKit.framework`를 추가해야 한다.
 
@@ -27,9 +27,14 @@ iOS 6.0+ 부터 제공하는 `SKStoreProductViewController`를 사용하면 앱�
 
 ![StoreKitFramework](../Resource/StoreKitFramework.png)
 
+<br />
 
+<br />
+
+# SKStoreProductViewController 사용
 
 ~~~~objc
+// ViewController.h
 #import <UIKit/UIKit.h>
 #import <StoreKit/StoreKit.h>
  
@@ -40,9 +45,10 @@ iOS 6.0+ 부터 제공하는 `SKStoreProductViewController`를 사용하면 앱�
 
 #import <StoreKit/StoreKit.h>를 포함시키고 SKStoreProductViewControllerDelegate를 추가한다.
 
-
+<br />
 
 ~~~objc
+// ViewController.m
 - (IBAction)linkToAppstoreWithUrl:(id)sender {
     // 기존의 방식으로 앱스토어 이동을 위한 링크
     NSString *appUrl = @"https://itunes.apple.com/kr/app/%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8-%EB%AD%90%EC%98%80%EC%A7%80-%EA%B3%84%EC%A0%95-%EA%B4%80%EB%A6%AC-%EC%95%84%EC%9D%B4%EB%94%94-%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8/id1392239856?mt=8";
@@ -84,8 +90,6 @@ iOS 6.0 미만 버전에서도 정상적으로 동작하도록 하기 위해 `SK
 loadProductWithParameters:productParameters completionBlock 이 메서드를 호출하면 앱스토어의 정보를
 
 읽어오고 이 과정이 끝나면  코드 블럭 안으로 result 값을 처리한다.
-
-<br />
 
 이렇게 구현을 하게 되면 앱간 전환이 아니라 앱에서 단순 화면 전환으로 앱스토어로 이동시킬 수 있다.
 
