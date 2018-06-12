@@ -32,4 +32,5 @@
 * [iOS New File Template 만들기](https://github.com/Developer-Leby/STUDY/blob/master/iOS/iOS%20New%20File%20Template%20%EB%A7%8C%EB%93%A4%EA%B8%B0.md)
 * [Objective-C Style Guide 정리](https://github.com/Developer-Leby/STUDY/blob/master/iOS/Objective-C%20Style%20Guide%20%EC%A0%95%EB%A6%AC.md)
 * [iOS 10+ Privacy 설정](https://github.com/Developer-Leby/STUDY/blob/master/iOS/iOS%2010%2B%20Privacy%20%EC%84%A4%EC%A0%95.md)
+* [iOS 앱스토어 모달창으로 보여주기](https://github.com/Developer-Leby/STUDY/blob/master/iOS/iOS%20%EC%95%B1%EC%8A%A4%ED%86%A0%EC%96%B4%20%EB%AA%A8%EB%8B%AC%EC%B0%BD%EC%9C%BC%EB%A1%9C%20%EB%B3%B4%EC%97%AC%EC%A3%BC%EA%B8%B0.md)
 
