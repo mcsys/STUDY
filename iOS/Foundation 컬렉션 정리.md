@@ -10,5 +10,12 @@ Foundation 프레임워크는 애플에서 기본적으로 제공하는 프레�
 
 <br />
 
-# 숫자 객체
+# NSNumber 객체
+
+NSNumber 클래스는 초기값을 지정하여 객체를 생성하는 메서드들이 있다.
+
+~~~objc
+NSNumber *intNumber = [NSNumber numberWithInteger: 100];
+NSInteger myInt = [intNumber integerValue];
+~~~
 

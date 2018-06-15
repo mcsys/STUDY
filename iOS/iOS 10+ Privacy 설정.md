@@ -30,13 +30,15 @@ iOS 10에서 아래와 같은 기능을 사용하기 위해서는 사용자의 �
 | Location            | Privacy - Location Always Usage Description<br/>Privacy - Location When In Use Usage Description | NSLocationAlwaysUsageDescription<br/>NSLocationWhenInUseUsageDescription |
 | Microphone          | Privacy - Microphone Usage Description                       | NSMicrophoneUsageDescription                                 |
 | Motion              | Privacy - Motion Usage Description                           | NSMotionUsageDescription                                     |
-| Photos              | Privacy - Photo Library Usage Description                    | NSPhotoLibraryUsageDescription                               |
+| Photos              | Privacy - Photo Library Usage Description<br />**Privacy - Photo Library Additions Usage Description** | NSPhotoLibraryUsageDescription<br />**NSPhotoLibraryAdditionsUsageDescription** |
 | Reminders           | Privacy - Reminders Usage Description                        | NSRemindersUsageDescription                                  |
 | Siri                | Privacy - Siri Usage Description                             | NSSiriUsageDescription                                       |
 | Speech Recognition  | Privacy - Speech Recognition Usage Description               | NSSpeechRecognitionUsageDescription                          |
 | TV Provider Account | Privacy - TV Provider Usage Description                      | NSVideoSubscriberAccountUsageDescription                     |
 
 <br />
+
+iOS 11부터는 앨범에 접근할 때 권한 하나를 더 입력해야된다. **Privacy - Photo Library Additions Usage Description**
 
 위 항목에 대해서 `Info.plist` 를 설정하면 된다.
 
