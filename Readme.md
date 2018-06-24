@@ -9,8 +9,6 @@
 
 <br />
 
-<br />
-
 ## Android
 
 - [ADB 설정 및 명령어 사용](https://github.com/Developer-Leby/STUDY/blob/master/Android/ADB%20%EC%84%A4%EC%A0%95%20%EB%B0%8F%20%EB%AA%85%EB%A0%B9%EC%96%B4%20%EC%82%AC%EC%9A%A9.md)
