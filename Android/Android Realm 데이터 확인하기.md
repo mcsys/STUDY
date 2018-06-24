@@ -36,6 +36,10 @@ Windows 환경에서는 Realm Studio를 이용해서 `.realm`를 확인 할 수 
 
 Android Studio에서 Emulator로 실행하는 경우에는 다음과 같이 진행하면 된다. (Kotlin 기준)
 
+그리고 **.realm 파일을 가져오기 위해서는 Emulator가 실행**되어 있어야 한다.
+
+<br />
+
 **첫번째, .realm 파일의 경로를 구한다.**
 
 ~~~kotlin
