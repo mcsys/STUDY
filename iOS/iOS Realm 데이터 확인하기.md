@@ -2,7 +2,7 @@
 
 iOS에서 Realm 데이터를 확인하는 방법에 대해서 정리한다.
 
-Simulator와 실제 iPhone Device에서 Realm 확인하는 방법은 다르다.
+`Simulator`와 실제 `iPhone Device`에서 Realm 확인하는 방법은 다르다.
 
 <br />
 
@@ -10,9 +10,9 @@ Simulator와 실제 iPhone Device에서 Realm 확인하는 방법은 다르다.
 
 # Realm Browser 설치
 
-Realm 데이터를 확인하기 위해서는 files.realm 확장자 포멧을 열어 확인할 수 있는 툴이 필요하다.
+Realm 데이터를 확인하기 위해서는 `.realm` 확장자 포멧을 열어 확인할 수 있는 툴이 필요하다.
 
-AppStore에 이동하여 검색창에 Realm Browser라고 입력하고 설치한다.
+`AppStore`에 이동하여 검색창에 `Realm Browser`라고 입력하고 설치한다.
 
 ![RealmBrowser](../Resource/RealmBrowser.png)
 
@@ -70,7 +70,7 @@ open file:///Users/leby.y.kim/Library/Developer/CoreSimulator/Devices/9D76320B-D
 
 ![DevicesAndSimulator](../Resource/DevicesAndSimulator.png)
 
-`Devices` 탭에서 Realm 데이터를 확인하고 싶은 앱을 선택하고 아래 `톱니바퀴` 모양을 선택하고 `Download Container...`  를 선택한다.
+`Devices` 탭에서 앱을 선택하고 아래 `톱니바퀴` 모양을 선택하고 `Download Container...`  를 선택한다.
 
 적당한 곳에 Container 파일을 저장하고 Finder로 파일을 저장한 곳으로 이동한다.
 
