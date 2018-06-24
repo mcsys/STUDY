@@ -14,6 +14,7 @@
 ## Android
 
 - [ADB 설정 및 명령어 사용](https://github.com/Developer-Leby/STUDY/blob/master/Android/ADB%20%EC%84%A4%EC%A0%95%20%EB%B0%8F%20%EB%AA%85%EB%A0%B9%EC%96%B4%20%EC%82%AC%EC%9A%A9.md)
+- [Android Realm 데이터 확인하기](https://github.com/Developer-Leby/STUDY/blob/master/Android/Android%20Realm%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%ED%99%95%EC%9D%B8%ED%95%98%EA%B8%B0.md)
 
 <br />
 
