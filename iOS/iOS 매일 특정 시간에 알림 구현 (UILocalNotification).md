@@ -1,5 +1,7 @@
 # iOS 매일 특정 시간에 알림 구현 (UILocalNotification)
 
+![UILocalNotification](../Resource/UILocalNotification.png)
+
 iOS에서 매일 특정 시간에 알림을 받을 수 있는 방법에 대해서 정리하려고 한다.
 
 Notification 알림은 크게 2가지로 나뉜다.
@@ -34,9 +36,9 @@ Notification 알림은 크게 2가지로 나뉜다.
 
 AppDelegate에 다음 메서드를 구현해야한다.
 
-로컬 알림을 받았을 때의 앱이 포그라운드 상태인지, 백그라운드 상태인지에 따라 분기하여 처리할 수 있다.
+로컬 알림을 받았을 때의 앱이 `포그라운드` 상태인지, `백그라운드` 상태인지에 따라 분기하여 처리할 수 있다.
 
-iOS 8+ 부터는 UILocalNotification을 사용하려면 didRegisterUserNotificationSettings 메서드를 구현해줘야 한다.
+iOS 8+ 부터는 `UILocalNotification`을 사용하려면 `didRegisterUserNotificationSettings` 메서드를 구현해줘야 한다.
 
 ~~~objc
 - (void)application:(UIApplication *)application didRegisterUserNotificationSettings:(UIUserNotificationSettings *)notificationSettings {
@@ -101,9 +103,9 @@ iOS 8+ 부터는 UILocalNotification을 사용하려면 didRegisterUserNotificat
 
 위에 처럼 구현을 하면 매일 20시에 Local Notification이 발생한다. 
 
-iOS 8+ 부터는 UIUserNotificationSettings을 셋팅을 해줘야 한다. 그러지 않으면 노티는 발생하지 않는다.
+iOS 8+ 부터는 `UIUserNotificationSettings`을 셋팅을 해줘야 한다. 그러지 않으면 알림이 발생하지 않는다.
 
-noti.repeatInterval = NSCalendarUnitDay; 이 부분이 어떤식으로 반복할지 설정하는 부분이다.
+`noti.repeatInterval = NSCalendarUnitDay;` 이 부분이 어떤식으로 반복할지 설정하는 부분이다.
 
 <br />
 
@@ -117,7 +119,7 @@ noti.repeatInterval = NSCalendarUnitDay; 이 부분이 어떤식으로 반복할
 
 <br />
 
-위와 같이 Notification 등록, 해제 메서드를 구현해놓고 iOS에서 스위치 컴포넌트를 이용해서 구현하면 된다.
+위와 같이 Notification 등록, 해제 메서드를 구현해놓고 iOS에서 스위치 컴포넌트를 이용해서 상태에 따라 메서드를 호출하면 된다.
 
 **ON**: Notification 등록 메서드 호출
 
