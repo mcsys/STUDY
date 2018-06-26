@@ -8,7 +8,7 @@ Notification 알림은 크게 2가지로 나뉜다.
 
 **첫 번째는, APNS 서버에서 데이터를 전달받아 띄우는 Notification 알림**
 
-**두 번째는, 앱 자체에서 로컬로 띄우는 Notification 알림**
+**두 번째는, 앱 자체에서 띄우는 Local Notification 알림**
 
 매일 특정 시간에 Nofitication 알림을 띄우는 방법은 두 번째 방법을 이용해서 구현한다.
 
