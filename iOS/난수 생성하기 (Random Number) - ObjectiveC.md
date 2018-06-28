@@ -5,5 +5,5 @@
 int r = arc4random_uniform(74);
 ```
 
-`arc4random_uniform(74)` 0 ~ 73 중에 난수를 발생한다.
+`arc4random_uniform(74)` **0 ~ 73** 중에 난수를 발생한다.
 
