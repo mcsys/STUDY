@@ -9,7 +9,7 @@ cocoapods는 iOS에서 Objective-C, Swift 라이브러리를 설치 및 배포�
 **그럼 진행하기에 앞서 먼저 준비되어야 할 항목들이 있습니다. 준비되지 않았다면 진행이 불가합니다.**
 
 - cocoapods 설치 및 사용 방법을 익히셔야 합니다. [cocoapods 설치 및 사용 방법](http://www.developer-leby.kim/125)
-- 직접 만든 Pod Library 파일이 있어야 합니다.
+- 직접 만든 Pod Library 파일이 있어야 합니다. [Pod Library 생성 및 적용 방법](http://www.developer-leby.kim/180)
 - GitHub로 로그인하여 Repository를 생성하실 수 있어야합니다.
 
 <br />
