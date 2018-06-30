@@ -30,7 +30,7 @@
 
 * [AutoLayout Set Frame Issue](https://github.com/Developer-Leby/STUDY/blob/master/iOS/AutoLayout%20Set%20Frame%20Issue.md)
 * [Cocoa Pods Open Source 사이트 목록](https://github.com/Developer-Leby/STUDY/blob/master/iOS/Cocoa%20Pods%20Open%20Source%20%EC%82%AC%EC%9D%B4%ED%8A%B8%20%EB%AA%A9%EB%A1%9D.md)
-* [CocoaPods에 Library 등록 하기](https://github.com/Developer-Leby/STUDY/blob/master/iOS/CocoaPods%EC%97%90%20Library%20%EB%93%B1%EB%A1%9D%20%ED%95%98%EA%B8%B0.md)
+* [Cocoapods에 직접 만든 Library 등록 하는 방법](https://github.com/Developer-Leby/STUDY/blob/master/iOS/Cocoapods%EC%97%90%20%EC%A7%81%EC%A0%91%20%EB%A7%8C%EB%93%A0%20Library%20%EB%93%B1%EB%A1%9D%20%ED%95%98%EB%8A%94%20%EB%B0%A9%EB%B2%95.md)
 * [Firebase Syntax Error 정리](https://github.com/Developer-Leby/STUDY/blob/master/iOS/Firebase%20Syntax%20Error%20%EC%A0%95%EB%A6%AC.md)
 * [Foundation 컬렉션 정리.md](https://github.com/Developer-Leby/STUDY/blob/master/iOS/Foundation%20%EC%BB%AC%EB%A0%89%EC%85%98%20%EC%A0%95%EB%A6%AC.md)
 * [In-App Purchase 정리](https://github.com/Developer-Leby/STUDY/blob/master/iOS/In-App%20Purchase%20%EC%A0%95%EB%A6%AC.md)
