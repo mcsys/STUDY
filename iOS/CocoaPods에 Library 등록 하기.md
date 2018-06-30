@@ -131,7 +131,7 @@ $ git push -u origin master --tags
 
 업로드가 됐다면 다음과 같은 화면이 나옵니다. 이제 GitHub 페이지에 정말로 Source가 업로드 되었는지 확인해봅니다.
 
-![pushGit](../../../Desktop/pushGit.png)
+![pushGit](../Resource/pushGit.png)
 
 GitHub에 보니 정상적으로 업로드된 것을 확인할 수 있습니다. README.md 파일의 형식은 기본적으로 자동으로 제공해줍니다. 이제 업로드 된 것을 확인 했으니 이제 **CocoPods**에 **등록**하는 일만 남았습니다.
 
