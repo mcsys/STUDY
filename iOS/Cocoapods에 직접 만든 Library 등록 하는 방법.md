@@ -1,6 +1,6 @@
-# Cocoapods에 Library 등록 하기
+# Cocoapods에 직접 만든 Library 등록 하는 방법
 
-안녕하세요. 레비입니다. 이번에는 직접 만든 라이브러리를 **Local Pods**로 만드는 방법에 대해서 정리하려고 합니다.
+안녕하세요. 레비입니다. 이번에는 직접 만든 라이브러리를 **Cocoapods**에 **Library에** **등록**하는 방법에 대해서 정리하려고 합니다.
 
 cocoapods는 iOS에서 Objective-C, Swift 라이브러리를 설치 및 배포할 수 있도록 도와주는 **의존성 관리 도구**입니다. 일반적으로 사용하는 목적은 다른 개발자가 만든 라이브러리를 사용할 목적으로 사용되지만, 오픈소스에 기여하거나 자신이 필요한 코드들을 모아두고 여러 프로젝트에서 쉽게 사용할 목적으로 등록하기도 합니다.
 
@@ -9,11 +9,12 @@ cocoapods는 iOS에서 Objective-C, Swift 라이브러리를 설치 및 배포�
 **그럼 진행하기에 앞서 먼저 준비되어야 할 항목들이 있습니다. 준비되지 않았다면 진행이 불가합니다.**
 
 - cocoapods 설치 및 사용 방법을 익히셔야 합니다. [cocoapods 설치 및 사용 방법](http://www.developer-leby.kim/125)
+- 직접 만든 Pod Library 파일이 있어야 합니다.
 - GitHub로 로그인하여 Repository를 생성하실 수 있어야합니다.
 
 <br />
 
-### GitHub Repository 생성
+# GitHub Repository 생성
 
 먼저 GitHub로 이동하셔서 Repositories 탭으로 이동해서 New를 눌러 **새로운 레퍼지토리**를 생성합니다. 샘플로 라이브러리를 만들기 때문에 이름을 아무거나 생성해도 됩니다. 저는 `PodsLibrary`로 생성하도록 하겠습니다.
 
@@ -21,7 +22,7 @@ cocoapods는 iOS에서 Objective-C, Swift 라이브러리를 설치 및 배포�
 
 <br />
 
-### .podspec 파일 변경
+# .podspec 파일 변경
 
 그리고 아까 프로젝트 라이브러리 폴더로 Finder로 열으셔서 저는 **PodsLibrary**로 폴더를 만들었는데 여기로 이동하시면 `PodsLibrary.podspec ` 이 이름의 파일이 있습니다. 이 파일을 편집기로 열으셔서 다음과 같이 변경해주세요.
 
@@ -75,7 +76,7 @@ Validating podspec
 
 <br />
 
-### 라이브러리 프로젝트 git 등록
+# 라이브러리 프로젝트 git 등록
 
 이제 라이브러리가 생성된 프로젝트 PodsLibrary로 이동하셔서 다음 명령어를 입력합니다.
 
@@ -137,7 +138,7 @@ GitHub에 보니 정상적으로 업로드된 것을 확인할 수 있습니다.
 
 <br />
 
-### CocoaPods Library 등록
+# CocoaPods Library 등록
 
 이제 CocoaPods에 등록하는 일만 남았습니다. 다음 명령어를 입력해주세요.
 
@@ -195,7 +196,9 @@ xcrun: error: unable to find utility "simctl", not a developer tool or in PATH
 
 터미널에서 아까 입력한 Command가 정상적으로 처리가 되었다면 다음과 같이 축하메세지가 나오면서 CocoaPods에 라이브러리가 등록되었을 겁니다.  축하메세지와 함께 나와있는 URL을 들어가보면 아래 사진과 같이 나오는 것을 확인할 수 있습니다.
 
+<br />
 
+# CocoaPods 라이브러리 등록 화면
 
 ![CocoaPodsSuccess](../Resource/CocoaPodsSuccess.png)
 
