@@ -48,4 +48,6 @@ repeats:NO	 // 반복 여부
 
 `timerHandler` 메서드에는 `userInfo`로 받은 ` Dictionary`데이터를 **KEY**값을 이용해서 가져와 출력합니다.
 
+<br />
+
 `[timer invalidate];` 타이머가 계속 메모리에 남아있으면 안되니 **타이머를 종료하는 메서드**입니다.
