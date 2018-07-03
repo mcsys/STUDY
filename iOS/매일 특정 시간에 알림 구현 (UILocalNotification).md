@@ -1,4 +1,4 @@
-# iOS 매일 특정 시간에 알림 구현 (UILocalNotification)
+# 매일 특정 시간에 알림 구현 (UILocalNotification)
 
 ![UILocalNotification](../Resource/UILocalNotification.png)
 

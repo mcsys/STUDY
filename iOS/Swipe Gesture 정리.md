@@ -1,4 +1,4 @@
-# iOS Swipe Gesture 정리
+# Swipe Gesture 정리
 
 iOS는 SDK에서는 많은 제스처를 알 수 있지만, 그 중에서도 스와이프 제스처에 대해 정리하려 합니다.
 

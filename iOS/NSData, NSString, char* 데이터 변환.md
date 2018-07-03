@@ -1,4 +1,4 @@
-# iOS 데이터 NSData, NSString, char* 변환
+# NSData, NSString, char* 데이터 변환
 
 **NSString to char***
 

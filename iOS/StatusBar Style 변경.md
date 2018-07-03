@@ -1,4 +1,4 @@
-# iOS StatusBar Style 변경
+# StatusBar Style 변경
 
 iOS에서 StatusBar Style에는 Dark, Light 2가지의 색상이 있다.
 
