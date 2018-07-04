@@ -52,6 +52,9 @@
 
 ## IT Terms
 
+- [DAO](https://github.com/Developer-Leby/STUDY/blob/master/IT%20Terms/DAO.md)
+- [DTO](https://github.com/Developer-Leby/STUDY/blob/master/IT%20Terms/DTO.md)
+
 <br />
 
 ## [Spring](https://github.com/Developer-Leby/STUDY/tree/master/Spring)

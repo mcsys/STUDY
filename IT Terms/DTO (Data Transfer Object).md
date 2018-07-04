@@ -1,4 +1,4 @@
-### DTO
+### DTO (Data Transfer Object)
 
 DTO(Data Transfer Object)는 VO(Value Object)로 바꿔 말할 수 있는데 계층 간 데이터 교환을 위한 자바빈즈를 말합니다.
 

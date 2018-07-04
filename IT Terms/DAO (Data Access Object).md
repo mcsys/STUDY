@@ -1,4 +1,4 @@
-### DAO
+### DAO (Data Access Object)
 
 Data Access Object의 약자로 간단히 Database의 data에 접근을 위한 객체입니다. Database에 접근을 하려는 로직과 비즈니스 로직을 분리하기 위해서 사용을 합니다.
 
