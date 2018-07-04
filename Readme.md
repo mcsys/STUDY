@@ -50,10 +50,10 @@
 
 <br />
 
-## IT Terms
+## [IT Terms](https://github.com/Developer-Leby/STUDY/tree/master/IT%20Terms)
 
-- [DAO](https://github.com/Developer-Leby/STUDY/blob/master/IT%20Terms/DAO.md)
-- [DTO](https://github.com/Developer-Leby/STUDY/blob/master/IT%20Terms/DTO.md)
+- [DAO (Data Access Object)](https://github.com/Developer-Leby/STUDY/blob/master/IT%20Terms/DAO%20(Data%20Access%20Object).md)
+- [DTO (Data Transfer Object)](https://github.com/Developer-Leby/STUDY/blob/master/IT%20Terms/DTO%20(Data%20Transfer%20Object).md)
 
 <br />
 
