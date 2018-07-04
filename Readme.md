@@ -22,10 +22,6 @@
 
 <br />
 
-## [Glossary](https://github.com/Developer-Leby/STUDY/tree/master/Glossary)
-
-<br />
-
 ## [iOS](https://github.com/Developer-Leby/STUDY/tree/master/iOS)
 
 * [AutoLayout Set Frame Issue](https://github.com/Developer-Leby/STUDY/blob/master/iOS/AutoLayout%20Set%20Frame%20Issue.md)
@@ -51,5 +47,19 @@
 * [매일 특정 시간에 알림 구현 (UILocalNotification)](https://github.com/Developer-Leby/STUDY/blob/master/iOS/%EB%A7%A4%EC%9D%BC%20%ED%8A%B9%EC%A0%95%20%EC%8B%9C%EA%B0%84%EC%97%90%20%EC%95%8C%EB%A6%BC%20%EA%B5%AC%ED%98%84%20(UILocalNotification).md)
 * [앱스토어 모달창으로 보여주기](https://github.com/Developer-Leby/STUDY/blob/master/iOS/%EC%95%B1%EC%8A%A4%ED%86%A0%EC%96%B4%20%EB%AA%A8%EB%8B%AC%EC%B0%BD%EC%9C%BC%EB%A1%9C%20%EB%B3%B4%EC%97%AC%EC%A3%BC%EA%B8%B0.md)
 * [프로젝트 prefix .pch 파일 설정](https://github.com/Developer-Leby/STUDY/blob/master/iOS/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20prefix%20.pch%20%ED%8C%8C%EC%9D%BC%20%EC%84%A4%EC%A0%95.md)
+
+<br />
+
+## IT Terms
+
+<br />
+
+## [Spring](https://github.com/Developer-Leby/STUDY/tree/master/Spring)
+
+- [1. DI (Dependency Injection) 의존 주입](https://github.com/Developer-Leby/STUDY/blob/master/Spring/1.%20DI%20(Dependency%20Injection)%20%EC%9D%98%EC%A1%B4%20%EC%A3%BC%EC%9E%85.md)
+- [2. 생명주기 (life cycle)와 범위](https://github.com/Developer-Leby/STUDY/blob/master/Spring/2.%20%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0%20(life%20cycle)%EC%99%80%20%EB%B2%94%EC%9C%84.md)
+- [3. 외부 파일을 이용한 설정](https://github.com/Developer-Leby/STUDY/blob/master/Spring/3.%20%EC%99%B8%EB%B6%80%20%ED%8C%8C%EC%9D%BC%EC%9D%84%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%EC%84%A4%EC%A0%95.md)
+- [4. AOP(Aspect Oriented Programming)](https://github.com/Developer-Leby/STUDY/blob/master/Spring/4.%20AOP(Aspect%20Oriented%20Programming).md)
+
 
 
